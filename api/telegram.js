@@ -65,6 +65,8 @@ const manageMessage = async message => {
 
   // Manage commands
   if (body.text) {
+    body.text = body.text.toLowerCase();
+
     switch (body.text) {
       case '/start':
         reply('Hi! Please give me your email address.');
