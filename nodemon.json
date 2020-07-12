@@ -1,9 +1,0 @@
-{
-  "env": {
-    "PORT": 3000,
-    "EMAIL_USERNAME": "mysenderly",
-    "EMAIL_PASSWORD": "senderly-test-app",
-    "TELEGRAM_TOKEN": "1144659126:AAGrxdfHPKXqUKo1lGTxO3TdUNUFMEA60DU",
-    "URL_TOKEN": "DAHIUHK21HJK312HJDAJKLS"
-  }
-}
