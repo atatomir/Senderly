@@ -38,7 +38,7 @@ const checkSending = (user, reply) => () => {
   const allAttachments = [...queue[user.id]];
 
   mailer.sendMail({
-    from: '"Senderly" <mysenderly@gmail.com>',
+    from: `"Senderly" <${process.env.EMAIL}>`,
     to: destination[user.id],
     subject: "New attachments from " + user.first_name + ' ' + user.last_name,
     attachments: allAttachments
